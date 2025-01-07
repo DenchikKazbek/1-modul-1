@@ -1,11 +1,13 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+//Даны два числа x и y. Программа должна вывести в консоль «Удачное совпадение», – если оба числа четные, либо оба числа нечетные. Иначе программа ничего не выводит.
 public class Main {
     public static void main(String[] args) {
-        int x = 12;
-        int y = 6;
-        if ((x % 2 + y%2)==0) {
+        int x = 44;
+        int y = 88;
+        if (( x % 2 == 0) && (y % 2 == 0)) {
             System.out.println("Удачное совпадение");
+        } else if ((x % 2 != 0 ) && (y % 2 != 0)) {
+            System.out.println("Удачное совпадение");
+        } else {
         }
     }
 }
