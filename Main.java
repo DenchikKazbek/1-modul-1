@@ -7,7 +7,6 @@ public class Main {
             System.out.println("Удачное совпадение");
         } else if ((x % 2 != 0 ) && (y % 2 != 0)) {
             System.out.println("Удачное совпадение");
-        } else {
         }
     }
 }
